@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+/* p{
+    font-family: "Outfit", sans-serif;
+} */
+
+#hero div{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+#hero div .first{
+    background-color:#151515;
+}
+
+.hero{
+    background-image: url("./assets/desktop/image-hero.jpg");
+    background-position: center;
+}
+
+
+#about-us{
+    margin: 10% 10% 0;
+}
+
+#about-us div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#about-us div .about{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12%;
+    
+    
+}
+
+#about-us .container .about .title{
+    font-size: 70px;
+    font-family: 'Big Shoulders Display';
+}
+
+#about-us .container .about .content{
+    font-family: "Outfit", sans-serif;
+}
