@@ -242,10 +242,20 @@ flex: 1;
   display: flex;
   justify-content: end;
 }
-#footer .container .social-media img{
-  margin: 5px;
+
+.social-media a {
+  margin: 0 0.4rem;
+  text-decoration: none;
 }
 
+.social-media a svg {
+  fill: #fff;
+}
+
+.social-media a svg:hover,
+.social-media a svg:focus {
+  fill: #D5966C;
+}
 
 
 

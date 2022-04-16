@@ -13,7 +13,6 @@ a {
 }
 
 /* Map Image Design*/
-
 .galleryLocationMap {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -27,6 +26,7 @@ a {
     grid-area: 1 / 1 / 2 / span 4;
     height: 100vh;
     background-color: bisque;
+    background-size: cover;
 }
 
 @media screen and (max-width: 475px) {
@@ -35,8 +35,8 @@ a {
         background-size: cover;
     }
     .galleryLocationMap {
-        height: 80%;
-        width: 100%;
+        /* height: 80%;
+        width: 100%; */
     }
 }
  
@@ -46,7 +46,7 @@ a {
         background-size: cover;
     }
     .galleryLocationMap {
-        height: 100%;
+        /* height: 100%; */
     }
 }
 
