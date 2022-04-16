@@ -180,15 +180,17 @@ a {
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    min-height: 15rem;
+    justify-content: space-between;
+    min-height: 150px;
     background-color: #d5966c;
+    padding: 2% 10%;
 }
 
 .footerTitle{
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
-    font-weight: 700;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 .footerTitle h3 {
@@ -197,9 +199,9 @@ a {
 }
 
 .footerText {
-    font-family: 'outfit', sans-serif;
-    font-size: 1rem;
-    line-height: 28px;
+    font-family: 'Outfit', sans-serif;
+    /* font-size: 18px; */
+    /* line-height: 28px; */
     max-width: 50%;
 }
 

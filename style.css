@@ -13,10 +13,6 @@ a{
   text-decoration: none;
 }
 
-
-
-
-
 .btn-primary{
   display: flex;
   justify-content: space-between;
@@ -232,7 +228,7 @@ a{
 
 #footer .container{
   width: 100%;
-  height: 100px;
+  height: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -250,6 +246,15 @@ flex: 1;
 
 #footer .container .logo{
   text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+#footer .container .content{
+  font-family: Outfit, sans-serif;
+  /* max-width: 40%; */
+  /* font-size: 18px; */
 }
 
 #footer .container .social-media{
