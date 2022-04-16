@@ -222,17 +222,16 @@ a{
 
   
 #footer{
-  /* background-color: #151515;
-  padding: 2% 10%; */
-  /* box-sizing: border-box; */
+ background-color: #151515;
+ min-height: 150px;
+ width: 100%;
+  box-sizing: border-box;
+  padding: 2% 10%;
 }
 
 #footer .container{
-  background-color: #151515;
-  padding: 2% 10%;
   box-sizing: border-box;
-  width: 100%;
-  min-height: 150px;
+  background-color: #151515;
   display: flex;
   justify-content: space-between;
   align-items: center;
