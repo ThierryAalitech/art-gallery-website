@@ -1,51 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
     margin: 0;
-    font-family: 'Big Shoulders Display', cursive;
 }
 
-/* p{
-    font-family: "Outfit", sans-serif;
-} */
-
-#hero div{
-    display: flex;
-    width: 100%;
-    height: 100vh;
+a{
+  text-decoration: none;
 }
 
-#hero div .first{
-    background-color:#151515;
+
+.btn-primary{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 70px;
+  background-color: #151515;
+
 }
+.btn-primary span{
+  width: 80%;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 25px;
+}
+
+.btn-primary .icon{
+  width: 20%;
+  height: fit-content;
+  background-color: #D5966C;
+  padding: 20px 0; 
+  height: 70px;
+}
+
+.btn-primary .icon img{
+  display: flex;
+  height: auto;
+  margin: auto;
+}
+
+#hero .desktop{
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  grid-template-columns: repeat(3, auto);
+}
+
+
+#hero .tablet{
+  display: none;
+}
+
+#hero .mobile{
+  display: none;
+}
+
+#hero .desktop .first{
+  background-color:#151515;
+  color: white;
+}
+
 
 .hero{
-    background-image: url("./assets/desktop/image-hero.jpg");
-    background-position: center;
+  background-image: url("./assets/desktop/image-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-#about-us{
-    margin: 10% 10% 0;
+#hero .title{
+  position: absolute;
+  width: 100%;
+  height: 25vh;
+  top: 20vh;
+  padding: 0 14%;
+  display: flex;
+  justify-content: space-between;
 }
 
-#about-us div{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
+#hero .title .header{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+#hero .title .content{
+  width: 60%;
+  display: flex;
+  padding-left:20% ;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#hero .title .header h1{
+  font-size: 70px;
+  font-family: 'Big Shoulders Display', cursive; 
+  display: flex;
+  justify-self: center;
 }
 
-#about-us div .about{
+#hero .title .content p{
+  font-family: 'Big Shoulders Display', cursive; 
+  width: 80%;
+  height: auto;
+  font-family: 'Outfit', sans-serif;
+  line-height: 32px;
+  color: #444444;
+}
+.grid {
+    margin: 10% 14%;
+    display: grid;
+    grid-template: repeat(3,auto)/repeat(3,auto);
+    gap:20px;
+  }
+  
+  .about {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: 1/2;
     display: flex;
     flex-direction: column;
-    margin-right: 12%;
-    
-    
+    justify-content: center;
+    max-width: 70%;
+
+  }
+
+  .about .title{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+  }
+
+  .about .content{
+    font-family: 'Outfit', sans-serif;
+    line-height: 32px;
+    color: #444444;
+  }
+  
+  .image-grid-1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1/2;
+    justify-self: end;
+    max-width: 100%;
+  }
+
+  .image-grid-1 img{
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  .image-grid-2{
+    grid-column-start:1;
+    grid-column-end: 3;
+    grid-row: 2/4;
+    max-width: 100%;
+  }
+
+  .image-grid-2 img{
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+
+  .image-grid-3{
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row: 2/3;
+    max-width: 100%;
+  }
+
+  .image-grid-3 img{
+    max-width: 100%;
+    min-height: 100%;
+  }
+  
+.grid-5{
+  color: white;  
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row:3/4;
+    min-height: 100%;
+    max-width: 100%;
 }
 
-#about-us .container .about .title{
+.grid-5 .container{
+  background-color: #151515;
+  max-width: 100%;
+  min-height: 100%;
+  padding: 10%;
+}
+
+.grid-5 .container .title{
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+
+.grid-5 .container .content{
+  font-family: 'Outfit', sans-serif;
+  line-height: 32px;
+  justify-self: start;   
+}
+
+  
+#footer{
+  background-color: #151515;
+  padding: 2% 10%;
+}
+
+#footer .container{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+#footer .container div{
+flex: 1;
+}
+
+#footer .container div:nth-of-type(2){
+  flex: 2;
+}
+
+
+#footer .container .logo{
+  text-transform: uppercase;
+}
+
+#footer .container .social-media{
+  display: flex;
+  justify-content: end;
+}
+#footer .container .social-media img{
+  margin: 5px;
+}
+
+
+
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) and (max-width : 580px) {
+
+   *{
+     box-sizing: border-box;
+   }
+   body{
+     margin: 0;
+   }
+  #hero .mobile{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+  }
+
+  /* #hero .mobile .hero{
+    width: 100%;
+    height: 40vh;
+    background-image: url("./assets/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  } */
+  #hero .mobile .hero img{
+    width: 100%;
+    height: auto;
+  }
+  #hero .mobile .header{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #hero .mobile .header h1{
     font-size: 70px;
-    font-family: 'Big Shoulders Display';
+    font-family: 'Big Shoulders Display', cursive; 
+    /* left: 20px; */
+  }
+
+  #hero .mobile .header p{
+    height: auto;
+    font-family: 'Outfit', sans-serif;
+    line-height: 32px;
+    color: #444444;
+  }
+  
+  
+  #hero .desktop, #hero .tablet, #hero .title{
+   display: none;
+  }
+
+  .grid {
+    margin: 10% 5%;
+    display: grid;
+    grid-template: repeat(5,auto)/1fr;
+  }
+
+  .image-grid-1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    max-width: 100%;
+  }
+
+  .about {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+
+  }
+
+  .image-grid-2{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    max-width: 100%;
+  }
+
+  .image-grid-3{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    max-width: 100%;
+  }
+  
+.grid-5{
+    grid-row:5/6;
+    grid-column: 1/2;
+    min-height: 100%;
 }
 
-#about-us .container .about .content{
-    font-family: "Outfit", sans-serif;
+.grid-5 .container p br{
+ display: none;
+}
+
+#footer .container{
+  margin: 0;
+  padding: 20px 0;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #FFFFFF;
+}
+
+#footer .container div{
+flex: 1;
+}
+#footer .container .social-media{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#footer .container div:nth-of-type(2){
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#footer .container .logo{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+ 
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width:600px) and (max-width : 992px) {
+  
+  #hero .tablet{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  #hero .desktop, #hero .mobile{
+   display: none;
+  }
+
+
+  .about {
+    max-width: 100%;
+
+  }
+
+
+  #hero .title{
+    display: none;
+  }
+
+  #hero .tablet .header{
+    position: absolute;
+    top: 30vh;
+    left: 45%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #hero .tablet .header h1{
+    font-size: 70px;
+    font-family: 'Big Shoulders Display', cursive; 
+    width: 100%;
+    left: 20px;
+  }
+  
+  #hero .tablet .header p{
+    font-family: 'Big Shoulders Display', cursive; 
+    width: 100%;
+    height: auto;
+    font-family: 'Outfit', sans-serif;
+    line-height: 32px;
+    color: #444444;
+    padding-right: 10px;
+  }
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
 }
