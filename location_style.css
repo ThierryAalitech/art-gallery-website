@@ -79,8 +79,7 @@ a {
 }
 
 .button {
-    /* width: 8rem; */
-    width: 14rem;
+    width: 8rem;
     line-height: 80px;
     padding-right: 20px;
     padding-left: 80px;
