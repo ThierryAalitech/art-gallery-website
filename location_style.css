@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Big Shoulders Display', cursive;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
 }
 
 a {
@@ -12,7 +12,7 @@ a {
     font-size: 1.7rem;
 }
 
-/* Map Image Design*/
+/* Map and Button Grid Design*/
 .galleryLocationMap {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -25,7 +25,7 @@ a {
     background-position: center;
     grid-area: 1 / 1 / 2 / span 4;
     height: 100vh;
-    background-color: bisque;
+    background-color: rgb(236, 210, 178);
     background-size: cover;
 }
 
@@ -72,7 +72,7 @@ a {
     }
  }
 
-/* Button design */
+/* Button Design and Positioning */
 .button {
     grid-area: 1 / 1 / 2 / 2;
     place-self: start center;
