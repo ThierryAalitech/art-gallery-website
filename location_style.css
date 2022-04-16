@@ -29,14 +29,11 @@ a {
     background-size: cover;
 }
 
+/* Map Image Media Queries */
 @media screen and (max-width: 475px) {
     .mapImage{
         background-image: url("./assets/mobile/image-map.png");
         background-size: cover;
-    }
-    .galleryLocationMap {
-        /* height: 80%;
-        width: 100%; */
     }
 }
  
@@ -44,9 +41,6 @@ a {
     .mapImage{
         background-image: url("./assets/mobile/image-map@2x.png");
         background-size: cover;
-    }
-    .galleryLocationMap {
-        /* height: 100%; */
     }
 }
 
@@ -125,7 +119,7 @@ a {
     }
 }
 
-/* Location Details in Text */
+/* Footer with Visiting Details  */
 .locationDetail {
     display: flex;
     align-items: flex-start;
@@ -177,7 +171,7 @@ a {
     }
 
     .locationText {
-        width: 70%;
+        width: 80%;
     } 
 }
 
@@ -192,17 +186,18 @@ a {
 }
 
 .footerTitle{
-    font-family: 'Big Shoulders Display';
+    font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
     font-weight: 700;
 }
+
 .footerTitle h3 {
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .footerText {
-    font-family: outfit, sans-serif;
+    font-family: 'outfit', sans-serif;
     font-size: 1rem;
     line-height: 28px;
     max-width: 50%;
