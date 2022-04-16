@@ -241,12 +241,12 @@ a{
 
 #footer .container div{
 flex: 1;
+font-family: '', sans-serif;
 }
 
 #footer .container div:nth-of-type(2){
   flex: 2;
 }
-
 
 #footer .container .logo{
   text-transform: uppercase;
@@ -399,6 +399,7 @@ flex: 1;
 #footer .container div{
 flex: 1;
 }
+
 #footer .container .social-media{
   display: flex;
   justify-content: start;
@@ -415,8 +416,6 @@ flex: 1;
   justify-content: start;
   align-items: center;
 }
-
- 
 }
 
 /* Small Devices, Tablets */
@@ -477,8 +476,6 @@ flex: 1;
     color: #444444;
     padding-right: 10px;
   }
-
-
 }
 
 /* Large Devices, Wide Screens */
