@@ -79,9 +79,8 @@ a {
 }
 
 .button {
-    /* width: 8rem; */
-    width: 14rem;
-    line-height: 80px;
+    width: 8rem;
+    line-height: 70px;
     padding-right: 20px;
     padding-left: 80px;
     position: relative;
@@ -102,7 +101,7 @@ a {
     display: grid;
     display: -ms-grid;
     place-items: center;
-    padding: 26px 2px;
+    padding: 21px 2px;
 }
 
 .button:hover span {
