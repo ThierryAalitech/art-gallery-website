@@ -119,7 +119,7 @@ a {
     }
 }
 
-/* Footer with Visiting Details  */
+/* Mid-Section with Location Address Details  */
 .locationDetail {
     display: flex;
     align-items: flex-start;
@@ -136,10 +136,8 @@ a {
     margin: 0;
 }
 
-@media screen and (min-width:  900px) {
-    .locationText {
-        max-width: 35vw;
-    }
+.locationText {
+    width: 45%;
 }
 
 .coloredHeading {
@@ -149,16 +147,12 @@ a {
     margin: 0.5rem 0;
 }
 
-.locationText {
-    width: 45%;
-}
-
 .locationText p {
     font-family: 'outfit', sans-serif;
     font-weight: 300;
     line-height: 28px;
 }
-
+/* Media Queries for Location Address */
 @media screen and (max-width: 550px) {
     .locationDetail {
         flex-direction: column;
@@ -175,7 +169,13 @@ a {
     } 
 }
 
-/* Footer Design */
+@media screen and (min-width:  900px) {
+    .locationText {
+        max-width: 35vw;
+    }
+}
+
+/* Footer Design and Social Media Icons */
 .footer {
     box-sizing: border-box;
     display: flex;
@@ -225,7 +225,7 @@ a {
     fill: #fff;
 }
 
-/*Mobile Design */
+/*Mobile Design for Footer */
 @media screen and (max-width: 550px) {
     .footer {
         margin: 0 auto;
