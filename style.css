@@ -269,23 +269,29 @@ flex: 1;
   #hero .mobile{
     display: grid;
     width: 100%;
-    height: 100vh;
+    height: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: 30vh 1fr;
   }
 
-  /* #hero .mobile .hero{
+  
+  #hero .mobile .hero{
+    height: fit-content;
+  }
+
+  #hero .mobile .hero{
     width: 100%;
-    height: 40vh;
+    height: auto;
     background-image: url("./assets/mobile/image-hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  } */
-  #hero .mobile .hero img{
+  }
+
+  /* #hero .mobile .hero img{
     width: 100%;
     height: auto;
-  }
+  } */
   #hero .mobile .header{
     margin: 5%;
     display: flex;
