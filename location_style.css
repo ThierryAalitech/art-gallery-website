@@ -31,7 +31,8 @@ a {
 
 @media screen and (max-width: 475px) {
     .mapImage{
-        background-image: url("./assets/mobile/image-map.png")
+        background-image: url("./assets/mobile/image-map.png");
+        background-size: cover;
     }
     .galleryLocationMap {
         height: 80%;
@@ -42,6 +43,7 @@ a {
 @media screen and (max-width: 599px) {
     .mapImage{
         background-image: url("./assets/mobile/image-map@2x.png");
+        background-size: cover;
     }
     .galleryLocationMap {
         height: 100%;
@@ -51,27 +53,31 @@ a {
 @media screen and (min-width: 600px) {
     .mapImage{
         background-image: url("./assets/tablet/image-map.png");
-        height: 60vh;
+        /* height: 60vh; */
+        background-size: cover;
     }
  }
 
 @media screen and (min-width: 700px) and (orientation: landscape) {
     .mapImage{
         background-image: url("./assets/tablet/image-map@2x.png");
+        background-size: cover;
     }
  }
 
 @media screen and (min-width: 800px) {
     .mapImage{
         background-image: url("./assets/desktop/image-map.png");
-        height: 60vh;
+        /* height: 60vh; */
+        background-size: cover;
     }
  }
 
  @media screen and (min-width: 1600px) {
     .mapImage{
         background-image: url("./assets/desktop/image-map@2x.png");
-        height: 100vh;
+        /* height: 100vh; */
+        background-size: cover;
     }
  }
 
@@ -83,9 +89,9 @@ a {
 
 .button {
     width: 8rem;
-    line-height: 50px;
-    padding-right: 10px;
-    padding-left: 60px;
+    line-height: 80px;
+    padding-right: 20px;
+    padding-left: 80px;
     position: relative;
     background-color: #151515;
     color: #fff;
@@ -104,7 +110,7 @@ a {
     display: grid;
     display: -ms-grid;
     place-items: center;
-    padding: 11px 2px;
+    padding: 26px 2px;
 }
 
 .button:hover span {
@@ -130,6 +136,7 @@ a {
     min-height: 18rem;
     background-color: #151515;
     color: #fff;
+    padding: 3rem 0;
 }
 
 .locationHead h1 {
