@@ -1,8 +1,8 @@
-# HTML &amp; CSS Portfolio Project 📂
+# Art Gallery Website Project 📂
 
 ## Overview
 - This project is an [AmaliTech Ghana](https://www.amalitech.org) graduate trainee program assignment. 
-- art-gallery-website is a 2-page responsive [website](https://github.com/ThierryAalitech/art-gallery-website#run) built with **HTML** and **CSS**.
+- Art Gallery Website is a 2-page responsive [website](https://github.com/ThierryAalitech/art-gallery-website#run) built with **HTML** &amp; **CSS**.
 
 ## Description
   - The web pages are designed as follows:
@@ -11,8 +11,9 @@
       - Pictures of gallery halls in the main section. 
       - A footer with details about working hours and interactive social media icons.
   2. Location page
-      - An embedded map window with location of the gallery and an interactive link button that returns the user to the homepage.
-      - A text section with 
+      - An embedded map window with location of the gallery and an interactive link button that 
+        returns the user to the homepage.
+      - A text section with location details in text.
       - A footer with details about working hours and interactive social media icons.
 
 ### Design Template
@@ -22,8 +23,10 @@
 - The website resources are hosted and deployed via [Netlify](https://www.netlify.com).
 - Open this link [Modern Art Gallery](https://art-gallery-web.netlify.app/index.html) to view it in your browser.
 
-## 
--The link buttons can be 
+### Modifications &amp; Suggestions
+1. The initial design files used CSS media queries to get static images of the location. - However, to improve responsiveness and user experience we opted to use an embedded Google maps frame.
+    - The navigation link buttons can be designed to stick to the top of the page when scrolling
+  - 
 
 ## Credits
 - Thierry [GitHub Account 👨‍💻](https://github.com/ThierryAalitech)
