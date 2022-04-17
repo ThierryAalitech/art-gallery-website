@@ -1,18 +1,19 @@
 # ArtGalleryWebsite Project
-HTML &amp; CSS Portfolio Project
-This is an AmaliTech Ghana graduate trainee program assignment. 
+HTML &amp; CSS Portfolio Project 📂
+
 
 ![Design Template](./assets/preview.jpg)
 
 ## Overview
-art-gallery-website is a 2-page web design project built with **HTML** and **CSS**. The design is built to be responsive.
+- This is an AmaliTech Ghana graduate trainee program assignment. 
+- art-gallery-website is a 2-page responsive website built with **HTML** and **CSS**.
 
-## Requirements
+## Run
+- The website resources is hosted and deployed via [Netlify](https://www.netlify.com).
+- Open this link [Modern Art Gallery](https://art-gallery-web.netlify.app/index.html) to view it in your browser.
 
+## Team Members
+- Thierry 
+- Moses
 
-## Run project
--The website has been hosted and deployed via [Netlify](https://www.netlify.com).
-
--Open this link [Modern Art Gallery](https://art-gallery-web.netlify.app/index.html) to view it in your browser.
-
->: Feel free to contribute and improve!
+>: Feel free to contribute and Happy Coding 🖥️🌍 !
