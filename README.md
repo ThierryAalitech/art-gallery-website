@@ -2,7 +2,7 @@
 
 ## Overview
 - This project is an [AmaliTech Ghana](https://www.amalitech.org) graduate trainee program assignment. 
-- art-gallery-website is a 2-page responsive [website](https://github.com/ThierryAalitech/art-gallery-website/edit/main/README.md#run) built with **HTML** and **CSS**.
+- art-gallery-website is a 2-page responsive [website](https://github.com/ThierryAalitech/art-gallery-website#run) built with **HTML** and **CSS**.
 
 ## Description
   - The web pages are designed as follows:
