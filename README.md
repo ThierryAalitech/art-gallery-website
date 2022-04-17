@@ -22,6 +22,7 @@
 ## Run
 - The website resources are hosted and deployed via [Netlify](https://www.netlify.com).
 - Open this link [Modern Art Gallery](https://art-gallery-web.netlify.app/index.html) to view it in your browser.
+- To visit the website on another device, enter this address ```https://art-gallery-web.netlify.app/index.html``` in the browser.
 
   ##### Modifications &amp; Suggestions
      - The initial design used CSS media queries to get static images of the location map. However, to improve responsiveness and user experience we opted to use           an embedded Google maps frame.
