@@ -22,8 +22,11 @@
 - The website resources are hosted and deployed via [Netlify](https://www.netlify.com).
 - Open this link [Modern Art Gallery](https://art-gallery-web.netlify.app/index.html) to view it in your browser.
 
-## Team Members
-- Thierry 
-- Moses
+## 
+-The link buttons can be 
+
+## Credits
+- Thierry [on GitHub](https://github.com/ThierryAalitech)
+- Moses [on GitHub](https://github.com/mtenkorang)
 
 >: Feel free to contribute and Happy Coding 🖥️🌍 !
