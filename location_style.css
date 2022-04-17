@@ -7,7 +7,7 @@ body {
 
 a {
     cursor: pointer;
-    font-family: 'Big Shoulders Display';
+    font-family: 'Big Shoulders Display', cursive;
     letter-spacing: 1px;
     font-size: 1.7rem;
 }
