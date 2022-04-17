@@ -1,7 +1,7 @@
 # HTML &amp; CSS Portfolio Project 📂
 
 ## Overview
-- This is an AmaliTech Ghana graduate trainee program assignment. 
+- This project is an [AmaliTech Ghana](https://www.amalitech.org) graduate trainee program assignment. 
 - art-gallery-website is a 2-page responsive [website](https://github.com/ThierryAalitech/art-gallery-website/edit/main/README.md#run) built with **HTML** and **CSS**.
 
 ## Description
@@ -26,7 +26,7 @@
 -The link buttons can be 
 
 ## Credits
-- Thierry [on GitHub](https://github.com/ThierryAalitech)
-- Moses [on GitHub](https://github.com/mtenkorang)
+- Thierry [GitHub Account 👨‍💻](https://github.com/ThierryAalitech)
+- Moses [GitHub Account 👨‍💻](https://github.com/mtenkorang)
 
 >: Feel free to contribute and Happy Coding 🖥️🌍 !
