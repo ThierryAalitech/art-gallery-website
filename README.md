@@ -1,6 +1,5 @@
-# ArtGalleryWebsite Project
-HTML &amp; CSS Portfolio Project 📂
-
+# HTML &amp; CSS Portfolio Project 📂
+  art-gallery-website
 
 ![Design Template](./assets/preview.jpg)
 
