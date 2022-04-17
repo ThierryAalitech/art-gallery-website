@@ -11,7 +11,7 @@ art-gallery-website is a 2-page web design project built with **HTML** and **CSS
 
 
 ## Run project
-1.The website has been hosted and deployed via [Netlify](https://www.netlify.com).
-2.Open this link [Modern Art Gallery](https://art-gallery-web.netlify.app/index.html) to view it in your browser.
+-The website has been hosted and deployed via [Netlify](https://www.netlify.com).
+-Open this link [Modern Art Gallery](https://art-gallery-web.netlify.app/index.html) to view it in your browser.
 
 >: Feel free to contribute and improve!
