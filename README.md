@@ -23,13 +23,13 @@
 - The website resources are hosted and deployed via [Netlify](https://www.netlify.com).
 - Open this link [Modern Art Gallery](https://art-gallery-web.netlify.app/index.html) to view it in your browser.
 
-### Modifications &amp; Suggestions
-1. The initial design files used CSS media queries to get static images of the location. - However, to improve responsiveness and user experience we opted to use an embedded Google maps frame.
-    - The navigation link buttons can be designed to stick to the top of the page when scrolling
-  - 
+  ##### Modifications &amp; Suggestions
+     - The initial design used CSS media queries to get static images of the location map. However, to improve responsiveness and user experience we opted to use           an embedded Google maps frame.
+     -  The navigation link buttons can be adjusted to stick to the top of the page when scrolling.
+     -  A contact number or email can be included in the footer.
 
 ## Credits
-- Thierry [GitHub Account 👨‍💻](https://github.com/ThierryAalitech)
-- Moses [GitHub Account 👨‍💻](https://github.com/mtenkorang)
+- Thierry [GitHub👨‍💻](https://github.com/ThierryAalitech)
+- Moses  [GitHub👨‍💻](https://github.com/mtenkorang)
 
->: Feel free to contribute and Happy Coding 🖥️🌍 !
+>: Happy Coding 🖥️🌍 !
