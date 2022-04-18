@@ -7,7 +7,7 @@ body {
 
 a {
     cursor: pointer;
-    font-family: 'Big Shoulders Display';
+    font-family: 'Big Shoulders Display', cursive;
     letter-spacing: 1px;
     font-size: 1.7rem;
 }
@@ -139,7 +139,7 @@ a {
 }
 
 .locationHead h1 {
-    font-family: 'Big Shoulders Display';
+    font-family: 'Big Shoulders Display', cursive;
     font-size: 4.37rem;
     margin: 0;
 }
@@ -151,7 +151,7 @@ a {
 .coloredHeading {
     color: #d5966c;
     text-transform: uppercase;
-    font-family: 'Big Shoulders Display';
+    font-family: 'Big Shoulders Display', cursive;
     margin: 0.5rem 0;
 }
 
