@@ -21,7 +21,15 @@ a {
     -ms-grid-row: 1fr; */
     width: 100%;
 }
+.mapImage iframe{
+    width: 100%;
+    height: 80vh;
+}
 
+/* The code in line 33 - 83 is supposed to combine static images
+and media queries to serve an image of the map location to the user */
+
+/* Map Image Media Queries */
 .mapImage {
     width: 100%;
     background-position: center;
@@ -30,13 +38,6 @@ a {
     background-color: rgb(236, 210, 178);
     background-size: cover;
 }
-
-.mapImage iframe{
-    width: 100%;
-    height: 80vh;
-}
-
-/* Map Image Media Queries */
 @media screen and (max-width: 475px) {
     .mapImage{
         /* background-image: url("./assets/mobile/image-map.png"); */
@@ -120,10 +121,10 @@ a {
     background-color: #d5966c;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
     .button {
         margin-left: 6vw;
-        /* margin-top: 0.5rem; */
+        top: 17%;
     }
 }
 
