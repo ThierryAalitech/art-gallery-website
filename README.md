@@ -12,7 +12,7 @@
       - A footer with details about working hours and interactive social media icons.
   2. Location page
       - An embedded map window with location of the gallery and an interactive link button that 
-        returns the user to the homepage.
+        returns the user to the home page.
       - A text section with location details in text.
       - A footer with details about working hours and interactive social media icons.
 
@@ -25,7 +25,7 @@
 - To visit the website on another device, enter this address ```https://art-gallery-web.netlify.app/index.html``` in the browser.
 
   ##### Modifications &amp; Suggestions
-     - The initial design used CSS media queries to get static images of the location map. However, to improve responsiveness and user experience we opted to use           an embedded Google maps frame.
+     - The initial design used CSS media queries to get static images of the location map. However, to improve the user interaction and user experience we opted to use           an embedded Google maps frame.
      -  The navigation link buttons can be adjusted to stick to the top of the page when scrolling.
      -  A contact number or email can be included in the footer.
 
