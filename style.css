@@ -316,7 +316,7 @@ font-family: '', sans-serif;
   #hero .mobile .hero{
     width: 100%;
     /* height: auto; */
-    max-height: 30rem;
+    min-height: 30rem;
     background-image: url("./assets/mobile/image-hero@2x.jpg");
     background-repeat: no-repeat;
     background-position: center;
