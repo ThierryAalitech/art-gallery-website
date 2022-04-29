@@ -110,9 +110,21 @@ a{
 #hero .title .header h1{
   font-size: 70px;
   font-family: 'Big Shoulders Display', cursive; 
-  display: flex;
-  justify-self: center;
+  /* display: flex;
+  justify-self: center; */
 }
+
+
+/*White Text for Title*/
+
+div.header:nth-child(1) > h1:nth-child(1) > span:nth-child(1) {
+  color: #fff;
+}
+
+div.header:nth-child(1) > h1:nth-child(1) > span:nth-child(3) {
+  color: #fff;
+}
+
 
 #hero .title .content p{
   font-family: 'Big Shoulders Display', cursive; 
