@@ -293,7 +293,7 @@ font-family: '', sans-serif;
     width: 100%;
     height: auto;
     grid-template-columns: 1fr;
-    grid-template-rows: 30vh 1fr;
+    grid-template-rows: 1fr;
   }
 
   
@@ -303,7 +303,8 @@ font-family: '', sans-serif;
 
   #hero .mobile .hero{
     width: 100%;
-    height: auto;
+    /* height: auto; */
+    min-height: 32rem;
     background-image: url("./assets/mobile/image-hero@2x.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -328,7 +329,7 @@ font-family: '', sans-serif;
   }
 
   #hero .mobile .header p{
-    height: auto;
+    margin: 1.5rem 0;
     font-family: 'Outfit', sans-serif;
     line-height: 32px;
     color: #444444;
