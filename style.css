@@ -294,20 +294,12 @@ font-family: '', sans-serif;
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) and (max-width : 580px) {
 
-   *{
-     box-sizing: border-box;
-   }
-   body{
-     margin: 0;
-   }
   #hero .mobile{
     display: grid;
     width: 100%;
-    height: auto;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
-
   
   #hero .mobile .hero{
     height: fit-content;
@@ -315,7 +307,6 @@ font-family: '', sans-serif;
 
   #hero .mobile .hero{
     width: 100%;
-    /* height: auto; */
     min-height: 30rem;
     background-image: url("./assets/mobile/image-hero@2x.jpg");
     background-repeat: no-repeat;
