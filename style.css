@@ -304,17 +304,13 @@ font-family: '', sans-serif;
   #hero .mobile .hero{
     width: 100%;
     /* height: auto; */
-    min-height: 32rem;
+    max-height: 30rem;
     background-image: url("./assets/mobile/image-hero@2x.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
-  /* #hero .mobile .hero img{
-    width: 100%;
-    height: auto;
-  } */
   #hero .mobile .header{
     margin: 5%;
     display: flex;
