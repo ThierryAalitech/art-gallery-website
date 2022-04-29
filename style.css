@@ -476,8 +476,3 @@ flex: 1;
     padding-right: 10px;
   }
 }
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
-}
